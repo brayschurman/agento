@@ -2,7 +2,7 @@
 
 A terminal CLI that scores how easy your repo is for AI agents and humans to understand, change, and trust. Run it in a repo to get an operability score, structural risks, and the highest-friction areas to fix first.
 
-![Demo of the Agento command-line interface](./demo.gif)
+![Demo of the Agento command-line interface](./agento-demo.gif)
 
 *Interactive health report in one pass.*
 
