@@ -1,4 +1,4 @@
-# Agento
+# Agento 👾
 
 A terminal CLI that scores how easy your repo is for AI agents and humans to understand, change, and trust. Run it in a repo to get an operability score, structural risks, and the highest-friction areas to fix first.
 
