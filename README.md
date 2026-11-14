@@ -15,6 +15,7 @@ Surfaces the kinds of problems that slow down both engineers and coding agents: 
 - `agento health` — overall score (0–100), letter grades per section, interactive navigator (arrow keys + Enter)
 - `agento health --summary` — full breakdown: weighted subscores, hotspots, task-friction warnings, recommended fixes
 - `agento health --format json` — machine-readable for CI or scripts
+- `agento map` or `agento --map` — generate a standalone interactive HTML architecture map (defaults to `~/Desktop/agento-map.html`)
 
 ## Install / Download 📦
 
@@ -89,6 +90,20 @@ For the expanded report instead of the compact interactive overview:
 
 ```bash
 agento health --summary
+```
+
+### Architecture map
+
+Generate an interactive HTML map of the repository architecture:
+
+```bash
+agento --map
+```
+
+Or with an explicit output file:
+
+```bash
+agento map --output architecture.html
 ```
 
 ### Help
